@@ -43,15 +43,16 @@ BLU is an IT services organization with the following structure:
 ---
 
 ## 🌐 Network Design
-
+```
 Internet
-↓
+  ↓
 Router (Gateway: 10.0.2.1)
-↓
+  ↓
 Switch
-├── Server (10.0.2.4)
-├── PC1 - Windows 8 (10.0.2.15)
-└── PC2 - Windows 8 (10.0.2.5)
+  ├── Server (10.0.2.4)
+  ├── PC1 - Windows 8 (10.0.2.15)
+  └── PC2 - Windows 8 (10.0.2.5)
+```
 
 ---
 
