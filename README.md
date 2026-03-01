@@ -53,7 +53,6 @@ Switch
   ├── PC1 - Windows 8 (10.0.2.15)
   └── PC2 - Windows 8 (10.0.2.5)
 ```
-
 ---
 
 ## 🖥️ Device Configuration
@@ -73,13 +72,26 @@ Switch
 
 ---
 
+##  Organizational Units (OUs)  
+### Created using Active Directory Users and Computers:  
+
+```
+Blu.co
+├── OU: IT Department
+    └── Users: Isaac.IT
+
+├── OU: Sales Department
+    └── Users:Opeyemi.SALES
+```
+
+
 ## 🔐 Security Controls Implemented
 
 - Password Policy Enforcement
 - Account Lockout Policy
 - Role-Based Access Control (RBAC)
-- GPO Desktop Restrictions (IT)
-- Administrative Privileges (IT)
+- GPO Desktop Restrictions
+- Administrative Privileges
 - Least Privilege Enforcement
 
 ---
