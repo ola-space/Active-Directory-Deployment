@@ -111,8 +111,9 @@ Blu.co
 
 - AD Domain Structure
 - GPO Editor Screenshot
-- PC joined to domain
-- Result of denied shutdown/restart access
+- Network configuration
+- PCs joined to domain
+- Result of denied shutdown and restart access
 
 ---
 
