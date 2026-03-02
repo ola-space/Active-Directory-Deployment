@@ -77,11 +77,22 @@ Switch
 
 ```
 Blu.co
-├── OU: IT Department
-    └── Users: Isaac.IT
-
-├── OU: Sales Department
-    └── Users:Opeyemi.SALES
+│
+├── OU=Departments
+│   │
+│   ├── OU=IT Department
+│   │   │
+│   │   └── OU=Groups
+│   │        ├── Developers
+│   │        └── SOC Analysts
+│   │             └── Isaac.IT
+│   │
+│   └── OU=Sales Department
+│       │
+│       └── OU=Groups
+│            ├── Downstream
+│            └── Upstream
+│                 └── Opeyemi.SALES
 ```
 
 
